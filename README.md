@@ -1,27 +1,19 @@
-# Task 3 - SQL for Data Analysis (Sample Submission)
+# Task 3: SQL for Data Analysis
 
-This sample repository contains:
-- `queries.sql` : SQL schema, sample data inserts, and example queries demonstrating SELECT, WHERE, GROUP BY, JOINs, subqueries, views, and indexes.
-- `ecommerce_dataset.csv` : small sample customers table CSV for quick import.
-- `screenshots/` : sample screenshots placeholders (PNG files).
-- `task3.zip` : package of all files (this zip).
+## Objective
+Analyze ecommerce data using SQL queries.
 
-## How to run (SQLite example)
-1. Install SQLite (if not available).
-2. Create a database and import the SQL:
-   ```bash
-   sqlite3 task3.db < queries.sql
-   ```
-3. To inspect the data:
-   ```sql
-   SELECT * FROM customers;
-   SELECT * FROM orders;
-   ```
-4. Run the example queries inside `queries.sql` (they are included as comments and runnable statements).
+## Tools Used
+- SQLite
+- DB Browser for SQLite
 
-## Deliverables for submission
-- `queries.sql` containing your SQL queries (provided).
-- Screenshots of query outputs (sample placeholders included).
-- A short README explaining what you did (this file).
+## Concepts Covered
+- SELECT, WHERE, ORDER BY
+- GROUP BY, HAVING
+- JOINS
+- Subqueries
+- Views
+- Indexes
 
-Source: Task description from the provided PDF (see page 1 & 2). fileciteturn0file0
+## Outcome
+Learned how to extract and analyze structured data using SQL.
